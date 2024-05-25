@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="mapper\include\intel_driver.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\intel_driver_resource.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\nt.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\mapper.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\utils.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\service.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\portable_executable.hpp">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\include\driver_array.h">
+      <Filter>mapper\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mapper\utils.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\service.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\portable_executable.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\mapper.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\main.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\intel_driver.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\driver_array.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{957eb119-eb95-45d7-93e1-f72b298c36b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper\include">
+      <UniqueIdentifier>{f8452a1a-c3a5-45c8-8531-acf5441e1320}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
